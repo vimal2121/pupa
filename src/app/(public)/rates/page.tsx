@@ -28,8 +28,7 @@ export default function RatesPage() {
             {/* Animated Mobile Swipe Indicator */}
             <div className="md:hidden flex items-center justify-end space-x-2 text-xs font-bold uppercase tracking-widest text-[#51237F] flex-shrink-0">
               <span className="animate-pulse">Swipe</span>
-              <svg 
-                className="w-4 h-4 animate-[bounce-x_2s_infinite]" 
+              <svg className="w-4 h-4 animate-bounce-x" 
                 fill="none" 
                 viewBox="0 0 24 24" 
                 stroke="currentColor"
@@ -295,8 +294,7 @@ export default function RatesPage() {
             {/* Animated Mobile Swipe Indicator */}
             <div className="md:hidden flex items-center justify-end space-x-2 text-xs font-bold uppercase tracking-widest text-[#51237F] flex-shrink-0">
               <span className="animate-pulse">Swipe</span>
-              <svg 
-                className="w-4 h-4 animate-[bounce-x_2s_infinite]" 
+              <svg className="w-4 h-4 animate-bounce-x" 
                 fill="none" 
                 viewBox="0 0 24 24" 
                 stroke="currentColor"
