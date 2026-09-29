@@ -45,7 +45,7 @@ export function SettingsForm({ initialSettings }: { initialSettings: Record<stri
     }
   }
 
-  const renderPicker = (label: string, field: 'logo' | 'favicon', currentUrl: string | null) => (
+  const renderPicker = (label: string, field: 'logo' | 'favicon' | 'homeHero', currentUrl: string | null) => (
     <div>
       <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">{label}</label>
       {currentUrl ? (

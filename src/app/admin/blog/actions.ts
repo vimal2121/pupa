@@ -79,7 +79,7 @@ export async function saveBlogAction(formData: FormData) {
     ogImageId,
     publishDate: isPublished ? new Date() : null,
     tags: {
-      set: tagConnects
+      connect: tagConnects
     }
   }
 

@@ -5,7 +5,7 @@ import { submitEnquiryAction } from './actions'
 import { Loader2 } from 'lucide-react'
 
 export default function ContactFormClient() {
-  const [state, formAction, isPending] = useActionState(submitEnquiryAction, { success: false })
+  const [state, formAction, isPending] = useActionState(submitEnquiryAction, { success: false, message: '' } as any)
 
   if (state.success) {
     return (
